@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background: #121213;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+nav ul li.logo{
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+}
+
+nav ul div.items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+nav ul div.items a:hover{
+    color: cyan;
+}
+
+nav ul .search-bar{
+    outline: 0;
+    height: 40px;
+    width: 240px;
+    display: flex;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    
+}
+
+nav ul .search-bar .search-field{
+    height: 100%;
+    width: 200px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 10px;
+    color: white;
+    background: none;
+}
+
+nav ul .search-bar .icon{
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+}
+
+nav ul .search-bar .icon:hover{
+    background: #e6e6e6;
+}
+
+nav ul .search-bar .icon i{
+    color: #222222;
+    font-size: 18px;
+}
+
+.hero-image{
+    background-image: url(/assets/bg.png);
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.stream-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 0.1px;
+    font-size: 80px;
+}
+
+.get-started
+{
+    padding: 15px 80px;
+    border-radius: 8px;
+    background-color: #eb347a;
+    color: white;
+    font-size: 25px 
+}
+.get-started {
+    transition-duration: 0.4s;
+}
+.get-started:hover {
+    background-color: red;
+    color: white;
+}
+
+.section-head{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.s1 {
+    background-color: whitesmoke;
+    border-bottom:1px solid #1B4332;
+    overflow: auto;
+    padding: 20px;
+}
+
+.s1 .post-preview{
+    background-color: transparent;
+    padding: 15px;
+
+}
+
+.s2 {
+    background-color: whitesmoke;
+    border-bottom:1px solid #1B4332;
+    overflow: auto;
+}
+
+.thumbnail{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.s2 .post-preview{
+    background-color: whitesmoke;
+    padding: 15px;
+
+}
+
+.s1 .main-container h2{
+    color: #1B4332;
+    margin: 10px;
+    background-color:whitesmoke;
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.s2 .main-container h2{
+    color: #1B4332;
+    margin: 10px;
+    background-color:whitesmoke;
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+h3{
+    color: black;
+    margin: 0;
+}
+
+.post-intro{
+    color: #4b5156;
+    font-size: 16px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+  
+.footer-complete{
+    background-color: #494b4f;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: bold 20px sans-serif;
+    padding: 40px;
+    margin-top: 80px;
+
+}
+  
+  
+.footer-complete, .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+  
+.footer-complete .footer-right i{
+    background-color: #494b4f;
+    color:white;
+    font-size:25px;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 47px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  
+}
+.footer-complete .footer-about{
+    line-height: 20px;
+    color: red;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+  
+.footer-complete .footer-about span{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin : 0;
+
+}
